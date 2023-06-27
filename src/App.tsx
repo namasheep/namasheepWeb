@@ -624,7 +624,7 @@ return(
                 </Box>
                 <Box mt="5%">
                   <Text color="white">
-                Agile Development, Requirments Gathering, User Stories, Story Boarding, Scrum, Side by Side Coding
+                Agile Development, Requirements Gathering, User Stories, Story Boarding, Scrum, Side by Side Coding
                   </Text>
                 </Box>
               </Box>
@@ -879,17 +879,17 @@ return(
                         </Box>
                       </ListItem>
                       <ListItem>
-                        <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="#gray.200" borderRadius="10">
+                        <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
-                            <Box height="8vh" width="8vh" bg="#000000">
-                              <Image  src={require('./images/unknownIcon.png')}/>
+                            <Box height="8vh" width="8vh">
+                              <Image  src={require('./images/icon-avatar.png')}/>
                             </Box>
                             <Box ml="5px" width="100%">
                               <Badge colorScheme='purple' color="black">
-                                TBD
+                                WEBSITE
                               </Badge>
                               <Text color="black" fontSize="10px">
-                                A TBD AI project :)
+                                This Website! Built from scratch without templates, using knowledge of framer motion, Chakra UI and React development. Designed all assets myself in Figma. Will always be a work in progress.
                               </Text>
                             </Box>
                           </Flex>
