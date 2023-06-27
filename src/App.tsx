@@ -528,7 +528,7 @@ return(
 
           <Avatar size='2xl' name='Namashi Sivaram' src={require('./images/headShot1.jpeg')} />{' '}
           <Spacer/>
-          <Box width="50%">
+          <Box width="50%" color="white">
             <Heading>
               From BIO to CS
             </Heading>
