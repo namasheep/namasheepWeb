@@ -166,8 +166,8 @@ export const App = () => {
     visible:{
       opacity:1,
       transition:{
-        duration: 1,
-        delay: 2
+        duration: 0.5,
+        
         
         
         
