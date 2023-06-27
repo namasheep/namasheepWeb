@@ -998,7 +998,7 @@ return(
             <br/>
             <Text size="xl" color="gray.700">
               My favourite thing to do is exploring creativity and bringing it to life, whatever the media is. When it comes to software, it means injecting my ideas and designs into whatever
-              it is I am building. I find that in doing so, I can push myself to create things far more appealing and poslished as passion is my main motivator. 
+              it is I am building. I find that in doing so, I can push myself to create things far more appealing and polished as passion is my main motivator. 
               I've got a lot more to create, and would love to chat about potential opportunities! 
             </Text>
           </Box>
