@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/namasheepWeb/static/css/main.dfe211bd.css",
-    "main.js": "/namasheepWeb/static/js/main.5ee30f10.js",
+    "main.js": "/namasheepWeb/static/js/main.3c8c3e1c.js",
     "static/js/787.016dd43c.chunk.js": "/namasheepWeb/static/js/787.016dd43c.chunk.js",
     "static/media/headShot1.jpeg": "/namasheepWeb/static/media/headShot1.fa78aa0c89d9921b0f21.jpeg",
     "static/media/soundIcon.png": "/namasheepWeb/static/media/soundIcon.32c0c7023997229c3c01.png",
+    "static/media/emailIcon.png": "/namasheepWeb/static/media/emailIcon.45e457f755902afdce41.png",
     "static/media/tronIcon.png": "/namasheepWeb/static/media/tronIcon.29e1d419e8fac0d7d153.png",
     "static/media/poppins-devanagari-600-normal.woff": "/namasheepWeb/static/media/poppins-devanagari-600-normal.ae9c1f88ace17d23e8e6.woff",
     "static/media/hosaIcon.jpg": "/namasheepWeb/static/media/hosaIcon.5928b7e443eaa75b496d.jpg",
@@ -27,11 +28,11 @@
     "static/media/bungee-vietnamese-400-normal.woff": "/namasheepWeb/static/media/bungee-vietnamese-400-normal.d4b5867d2ac6fe05b9d3.woff",
     "index.html": "/namasheepWeb/index.html",
     "main.dfe211bd.css.map": "/namasheepWeb/static/css/main.dfe211bd.css.map",
-    "main.5ee30f10.js.map": "/namasheepWeb/static/js/main.5ee30f10.js.map",
+    "main.3c8c3e1c.js.map": "/namasheepWeb/static/js/main.3c8c3e1c.js.map",
     "787.016dd43c.chunk.js.map": "/namasheepWeb/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe211bd.css",
-    "static/js/main.5ee30f10.js"
+    "static/js/main.3c8c3e1c.js"
   ]
 }
