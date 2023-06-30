@@ -397,7 +397,13 @@ return(
             SOFTWARE ENGINEER
           </Text>
           <br/>
-          <Button colorScheme="blue" size="lg">PDF Resume</Button>
+          <HStack>
+          <Link href={process.env.PUBLIC_URL + '/ResumeMain NamashivayanSivaram.pdf'} isExternal>
+          <Button colorScheme="blue" size="lg">PDF Resume</Button></Link>
+          <Link href={process.env.PUBLIC_URL + '/ResumeMain NamashivayanSivaram.pdf'} isExternal>
+          <Button colorScheme="gray" size="lg">Email Me!</Button></Link>
+          </HStack>
+          
         </Box>
         <Box as={motion.div} variants={moonContainer}>
           <Box as={motion.div} zIndex={2} style={{scale:moonSize,zIndex:2,x:moonX}}>
@@ -760,6 +766,7 @@ return(
                         </Box>
                       </ListItem>
                       <ListItem>
+                        <Link href='https://github.com/namasheep/MAPP' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -782,8 +789,10 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       <ListItem>
+                        <Link href='https://github.com/namasheep/WeatherGarden' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -806,6 +815,7 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                   </List>
                 </TabPanel>
@@ -814,6 +824,7 @@ return(
                   <List as={motion.div} whileInView="visible" variants={list} initial="hidden"  spacing="5px">
                     
                       <ListItem>
+                        <Link href="https://eigenfitness.com/" isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -829,6 +840,7 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       
                   </List>
@@ -946,8 +958,8 @@ return(
               </CardBody>
               <CardFooter>
                 <HStack spacing={8}>
-                  <Box width="5vh" height="5vh">
-                    <Link as={motion.div} href="https://open.spotify.com/user/namasheep" isExternal>
+                  <Box as={motion.div} width="5vh" height="5vh">
+                    <Link  href="https://open.spotify.com/user/namasheep" isExternal>
                       <Image
                       _hover={{
                         'transform': "scale(1.1)",
@@ -959,8 +971,8 @@ return(
                           src={require('./images/soundIcon.png')}/>
                     </Link>
                   </Box>
-                  <Box width="5vh" height="5vh">
-                    <Link as={motion.div} href="https://github.com/namasheep" isExternal>
+                  <Box as={motion.div} width="5vh" height="5vh">
+                    <Link href="https://github.com/namasheep" isExternal>
                       <Image
                       _hover={{
                         'transform': "scale(1.1)",
@@ -972,8 +984,8 @@ return(
                           src={require('./images/gitIcon.png')}/>
                     </Link>
                   </Box>
-                  <Box width="5vh" height="5vh">
-                    <Link as={motion.div} href="https://github.com/namasheep" isExternal>
+                  <Box as={motion.div} width="5vh" height="5vh">
+                    <Link href="https://in.pinterest.com/namashi/" isExternal>
                       <Image
                       _hover={{
                         'transform': "scale(1.1)",
