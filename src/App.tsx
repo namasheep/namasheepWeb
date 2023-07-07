@@ -16,6 +16,7 @@ import {
   Circle,
   Center,
   SimpleGrid,
+  GridItem,
   Image,
   Heading,
   extendTheme,
@@ -117,7 +118,7 @@ export const App = () => {
   const moonX = useTransform(
     scrollYProgress,
     [0.1, 0.4],
-    ['0%', '-93%'],
+    ['0%', '-100%'],
     { clamp: true }
   )
   const moonY = useTransform(
@@ -389,22 +390,26 @@ return(
     <Box color="white" as={motion.div} ref={moonRef} variants={header} initial="hidden" animate="visible" height="100vh" bg="linear-gradient(180deg, rgba(29,52,87,1) 0%, rgba(5,10,18,1) 100%)" textAlign="center" fontSize="xl">
     <Container maxW='70%' py="150px" height="inherit">
       <SimpleGrid columns={2} spacing="30%" maxH="90vh">
+      <GridItem width="100%">
         <Box justifyContent="left" as={motion.div} variants={stars}>
-          <Heading fontSize="9vh">
+          <Heading fontSize={{base:'5vh', xl: '7vh',lg:'7vh',md:'7vh'}}>
           Namashi Sivaram
           </Heading>
           <Text>
             SOFTWARE ENGINEER
           </Text>
           <br/>
+          <Center>
           <HStack>
           <Link href={process.env.PUBLIC_URL + '/ResumeMain NamashivayanSivaram.pdf'} isExternal>
           <Button colorScheme="blue" size="lg">PDF Resume</Button></Link>
-          <Link href={process.env.PUBLIC_URL + '/ResumeMain NamashivayanSivaram.pdf'} isExternal>
+          <Link href = "mailto:nsivaram@uwo.ca?subject=Lets Chat!" isExternal>
           <Button colorScheme="gray" size="lg">Email Me!</Button></Link>
           </HStack>
+          </Center>
           
         </Box>
+        </GridItem>
         <Box as={motion.div} variants={moonContainer}>
           <Box as={motion.div} zIndex={2} style={{scale:moonSize,zIndex:2,x:moonX}}>
             <Box as={motion.div} position="relative" zIndex={4} variants={moon} bg="rgba(255,255,255,1)" height="50vh" width="50vh" borderRadius="50%">
@@ -694,6 +699,7 @@ return(
                   <List as={motion.div} whileInView="visible" variants={list} initial="hidden"  spacing="5px">
                     
                       <ListItem>
+                      <Link href='https://github.com/WillJarvis-Cross/Pokemon-Game' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -716,8 +722,10 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       <ListItem>
+                      <Link href='https://github.com/WillJarvis-Cross/TronHeroes' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -740,8 +748,10 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       <ListItem>
+                      <Link href='https://github.com/WillJarvis-Cross/Infinity-Dungeon' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -764,6 +774,7 @@ return(
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       <ListItem>
                         <Link href='https://github.com/namasheep/MAPP' isExternal>
@@ -995,6 +1006,19 @@ return(
                       borderRadius='full'
                           
                           src={require('./images/pinIcon.png')}/>
+                    </Link>
+                  </Box>
+                  <Box as={motion.div} width="5vh" height="5vh">
+                    <Link href = "mailto:nsivaram@uwo.ca?subject=Lets Chat!" isExternal>
+                      <Image
+                      _hover={{
+                        'transform': "scale(1.1)",
+                        
+                      }}
+                      
+                      borderRadius='full'
+                          
+                          src={require('./images/emailIcon.png')}/>
                     </Link>
                   </Box>
                 </HStack>
