@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/namasheepWeb/static/css/main.dfe211bd.css",
-    "main.js": "/namasheepWeb/static/js/main.4c2de709.js",
+    "main.js": "/namasheepWeb/static/js/main.0e907644.js",
     "static/js/787.016dd43c.chunk.js": "/namasheepWeb/static/js/787.016dd43c.chunk.js",
     "static/media/headShot1.jpeg": "/namasheepWeb/static/media/headShot1.fa78aa0c89d9921b0f21.jpeg",
     "static/media/soundIcon.png": "/namasheepWeb/static/media/soundIcon.32c0c7023997229c3c01.png",
@@ -14,6 +14,7 @@
     "static/media/rpgIcon.png": "/namasheepWeb/static/media/rpgIcon.0aa5e1299ff6de6f7d8f.png",
     "static/media/gardenIcon.png": "/namasheepWeb/static/media/gardenIcon.86e34c57cab4c7dfb6ab.png",
     "static/media/pinIcon.png": "/namasheepWeb/static/media/pinIcon.8f0c34f44019fff319e4.png",
+    "static/media/canadaLifeIcon.png": "/namasheepWeb/static/media/canadaLifeIcon.717450eba1e862ee903b.png",
     "static/media/pokemonIcon.png": "/namasheepWeb/static/media/pokemonIcon.a5002c7f0459fd4ee803.png",
     "static/media/bungee-latin-400-normal.woff2": "/namasheepWeb/static/media/bungee-latin-400-normal.daddcac6fe1a2454c842.woff2",
     "static/media/bungee-latin-400-normal.woff": "/namasheepWeb/static/media/bungee-latin-400-normal.abb61a9a54079c7fcaa2.woff",
@@ -28,11 +29,11 @@
     "static/media/bungee-vietnamese-400-normal.woff": "/namasheepWeb/static/media/bungee-vietnamese-400-normal.d4b5867d2ac6fe05b9d3.woff",
     "index.html": "/namasheepWeb/index.html",
     "main.dfe211bd.css.map": "/namasheepWeb/static/css/main.dfe211bd.css.map",
-    "main.4c2de709.js.map": "/namasheepWeb/static/js/main.4c2de709.js.map",
+    "main.0e907644.js.map": "/namasheepWeb/static/js/main.0e907644.js.map",
     "787.016dd43c.chunk.js.map": "/namasheepWeb/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe211bd.css",
-    "static/js/main.4c2de709.js"
+    "static/js/main.0e907644.js"
   ]
 }
