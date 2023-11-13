@@ -401,7 +401,7 @@ return(
           <br/>
           <Center>
           <HStack>
-          <Link href={process.env.PUBLIC_URL + '/ResumeMain NamashivayanSivaram.pdf'} isExternal>
+          <Link href={process.env.PUBLIC_URL + '/Resume - Namashi Sivaram.pdf'} isExternal>
           <Button colorScheme="blue" size="lg">PDF Resume</Button></Link>
           <Link href = "mailto:nsivaram@uwo.ca?subject=Lets Chat!" isExternal>
           <Button colorScheme="gray" size="lg">Email Me!</Button></Link>
@@ -725,6 +725,33 @@ return(
                         </Link>
                       </ListItem>
                       <ListItem>
+                      <Link href='https://github.com/WillJarvis-Cross/Pokemon-Game' isExternal>
+                        <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
+                          <Flex>
+                            <Box height="8vh" width="8vh">
+                              <Image  src={require('./images/cardIcon.png')}/>
+                            </Box>
+                            <Box ml="5px" width="100%">
+                              <Flex>
+                              <Badge colorScheme='purple' color="black">
+                                NINE CARD APP
+                              </Badge>
+                              <Spacer/>
+                              <Badge colorScheme="blue">
+                                SWIFT
+                              </Badge>
+                              </Flex>
+                              <Text color="black" fontSize="10px">
+                                Built with The Composable Architecture, Google Firebase and Cloud Functions; provides an Swift IOS app for users to sign-in and play Nine card game. Google authentication for
+                                Firebase leaderboard maintainence.
+                              </Text>
+                            </Box>
+                          </Flex>
+                        </Box>
+                        </Link>
+                      </ListItem>
+                      
+                      <ListItem>
                       <Link href='https://github.com/WillJarvis-Cross/TronHeroes' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
@@ -847,6 +874,25 @@ return(
                               </Badge>
                               <Text color="black" fontSize="10px">
                                 Working as a software dev, worked in conjuction with the team to help in the development of wearable tech. Specifically, designed and implemented large 'Teams' feature for consumers to group clients.
+                              </Text>
+                            </Box>
+                          </Flex>
+                        </Box>
+                        </Link>
+                      </ListItem>
+                      <ListItem>
+                        <Link href="https://www.canadalife.com/" isExternal>
+                        <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
+                          <Flex>
+                            <Box height="8vh" width="8vh">
+                              <Image  src={require('./images/canadaLifeIcon.png')}/>
+                            </Box>
+                            <Box ml="5px" width="100%">
+                              <Badge colorScheme='purple' color="black">
+                                CANADA LIFE
+                              </Badge>
+                              <Text color="black" fontSize="10px">
+                                Working as a Software Architect Engineer, worked on technology enablement providing reference architectures for Kafka error handling, Azure OpenAI chat-bot, and Microservice design/reference implementation.
                               </Text>
                             </Box>
                           </Flex>
