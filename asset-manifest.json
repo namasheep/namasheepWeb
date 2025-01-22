@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/namasheepWeb/static/css/main.dfe211bd.css",
-    "main.js": "/namasheepWeb/static/js/main.f296edd9.js",
+    "main.js": "/namasheepWeb/static/js/main.8e283bc7.js",
     "static/js/787.016dd43c.chunk.js": "/namasheepWeb/static/js/787.016dd43c.chunk.js",
     "static/media/headShot1.jpeg": "/namasheepWeb/static/media/headShot1.fa78aa0c89d9921b0f21.jpeg",
     "static/media/soundIcon.png": "/namasheepWeb/static/media/soundIcon.32c0c7023997229c3c01.png",
@@ -18,6 +18,7 @@
     "static/media/pokemonIcon.png": "/namasheepWeb/static/media/pokemonIcon.a5002c7f0459fd4ee803.png",
     "static/media/bungee-latin-400-normal.woff2": "/namasheepWeb/static/media/bungee-latin-400-normal.daddcac6fe1a2454c842.woff2",
     "static/media/bungee-latin-400-normal.woff": "/namasheepWeb/static/media/bungee-latin-400-normal.abb61a9a54079c7fcaa2.woff",
+    "static/media/noteIcon.png": "/namasheepWeb/static/media/noteIcon.09afbc52e5341cde78b9.png",
     "static/media/bungee-latin-ext-400-normal.woff2": "/namasheepWeb/static/media/bungee-latin-ext-400-normal.7ec24d3fb778d0a7f8ac.woff2",
     "static/media/bungee-latin-ext-400-normal.woff": "/namasheepWeb/static/media/bungee-latin-ext-400-normal.4ae46146103d9f7c6884.woff",
     "static/media/poppins-latin-600-normal.woff": "/namasheepWeb/static/media/poppins-latin-600-normal.70e04c856f46aa529052.woff",
@@ -29,11 +30,11 @@
     "static/media/bungee-vietnamese-400-normal.woff": "/namasheepWeb/static/media/bungee-vietnamese-400-normal.d4b5867d2ac6fe05b9d3.woff",
     "index.html": "/namasheepWeb/index.html",
     "main.dfe211bd.css.map": "/namasheepWeb/static/css/main.dfe211bd.css.map",
-    "main.f296edd9.js.map": "/namasheepWeb/static/js/main.f296edd9.js.map",
+    "main.8e283bc7.js.map": "/namasheepWeb/static/js/main.8e283bc7.js.map",
     "787.016dd43c.chunk.js.map": "/namasheepWeb/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe211bd.css",
-    "static/js/main.f296edd9.js"
+    "static/js/main.8e283bc7.js"
   ]
 }
