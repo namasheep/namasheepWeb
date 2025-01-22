@@ -401,7 +401,7 @@ return(
           <br/>
           <Center>
           <HStack>
-          <Link href={process.env.PUBLIC_URL + '/Resume - Namashi Sivaram.pdf'} isExternal>
+          <Link href={process.env.PUBLIC_URL + '/Resume - Namashi Sivaram 2025.pdf'} isExternal>
           <Button colorScheme="blue" size="lg">PDF Resume</Button></Link>
           <Link href = "mailto:nsivaram@uwo.ca?subject=Lets Chat!" isExternal>
           <Button colorScheme="gray" size="lg">Email Me!</Button></Link>
@@ -612,11 +612,11 @@ return(
 
               <Box alignItems="start" width="50%">
                 <Box>
-                  <Badge>Frameworks</Badge>
+                  <Badge>Frameworks/Tech</Badge>
                 </Box>
                 <Box mt="5%">
                   <Text color="white">
-                ReactJS, NoSQL, NodeJS, Git, gulp
+                ReactJS, NoSQL, NodeJS, Git, gulp, SpringBoot, GitLab, Lambda, Azure AD
                   </Text>
                 </Box>
               </Box>
@@ -649,7 +649,7 @@ return(
                 </Box>
                 <Box mt="5%">
                   <Text color="white">
-                Figma, Jira, Confluence, WireFrames, Git/Version Control, Googling & Stackoverflow
+                Figma, Jira, Kanban, Confluence, WireFrames, Git/Version Control, Googling & Stackoverflow
                   </Text>
                 </Box>
               </Box>
@@ -725,7 +725,7 @@ return(
                         </Link>
                       </ListItem>
                       <ListItem>
-                      <Link href='https://github.com/WillJarvis-Cross/Pokemon-Game' isExternal>
+                      <Link href='https://github.com/namasheep/Nine' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} width="100%" minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -929,8 +929,27 @@ return(
                 <TabPanel>
 
                   <List as={motion.div} whileInView="visible" variants={list} initial="hidden"  spacing="5px">
-                    
+                  <ListItem>
+                      <Link href='https://github.com/bilogreesh/nota' isExternal>
+                        <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} minH="10vh" bg="gray.200" borderRadius="10">
+                          <Flex>
+                            <Box height="8vh" width="8vh">
+                              <Image  src={require('./images/noteIcon.png')}/>
+                            </Box>
+                            <Box ml="5px" width="100%">
+                              <Badge colorScheme='purple' color="black">
+                                Nota RAG
+                              </Badge>
+                              <Text color="black" fontSize="10px">
+                                Platform for users to upload and vectorize their notes! Utilizes RAG for improved AI insights on class documents.
+                              </Text>
+                            </Box>
+                          </Flex>
+                        </Box>
+                        </Link>
+                      </ListItem>
                       <ListItem>
+                      <Link href='https://github.com/namasheep/audioscape' isExternal>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} minH="10vh" bg="gray.200" borderRadius="10">
                           <Flex>
                             <Box height="8vh" width="8vh">
@@ -938,14 +957,15 @@ return(
                             </Box>
                             <Box ml="5px" width="100%">
                               <Badge colorScheme='purple' color="black">
-                                SOUNDSCAPE
+                                Audioscape Spotify
                               </Badge>
                               <Text color="black" fontSize="10px">
-                                Combing Spotify and Google Maps APIs to allow users to set playlists for specific real life locations!
+                                IOS app combining Spotify with real time geolocating, consolidates nearby user music to make playlists more social!
                               </Text>
                             </Box>
                           </Flex>
                         </Box>
+                        </Link>
                       </ListItem>
                       <ListItem>
                         <Box as={motion.div} variants={item} padding="1vh" whileHover={{scale:1.1,transition:{duration:0.2}}} minH="10vh" bg="gray.200" borderRadius="10">
